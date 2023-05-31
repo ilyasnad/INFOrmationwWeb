@@ -9,6 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "index.html", "index.html", 
 		StyleSheet1.css = StyleSheet1.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{B626D80A-F5DE-4CDD-B8A7-699BCD2B8E3D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\DreamShaper_v5_Kepler_et_Tycho_Brahe_physics_and_space_withou_0.jpg = ..\..\..\Downloads\DreamShaper_v5_Kepler_et_Tycho_Brahe_physics_and_space_withou_0.jpg
+		..\..\..\Downloads\DreamShaper_v5_Kepler_et_Tycho_Brahe_realistic_2.jpg = ..\..\..\Downloads\DreamShaper_v5_Kepler_et_Tycho_Brahe_realistic_2.jpg
+		..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_1.jpg = ..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_1.jpg
+		..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_2 (1).jpg = ..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_2 (1).jpg
+		..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_2.jpg = ..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_2.jpg
+		..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_3 (1).jpg = ..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_3 (1).jpg
+		..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_3.jpg = ..\..\..\Downloads\DreamShaper_v5_Le_problme_dimagerie_de_Kepler_et_la_solution_d_3.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
