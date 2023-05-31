@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title"><span style="color:red;">INFO</span>rmationWeb</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="HTMLPage1.html">Kepler et Brahe</a></li>
+                <li><a href="#">Galilée</a></li>
+                <li><a href="Newton.html">Newton</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenue sur INFOrmationWeb</h1>
+        <p style="background-color: rgb(255, 248, 224);border-radius:25px;padding:35px; ">
+            Bienvenue sur notre site web dédié à l'exploration fascinante de la physique ! Ici, nous vous proposons une multitude d'informations captivantes sur ce vaste domaine de la science qui étudie les lois fondamentales de l'univers. Que vous soyez un étudiant passionné, un amateur curieux ou simplement quelqu'un qui souhaite en apprendre davantage sur les mystères de l'univers, vous trouverez ici une mine de connaissances pour nourrir votre esprit.
+
+            Notre objectif est de rendre la physique accessible à tous, en fournissant des explications claires et concises sur des sujets allant de la mécanique classique à la physique quantique en passant par l'astrophysique et bien plus encore.
+            <span id="span_txt2" style="display: none; font-size: 18px; line-height: 1.5;">
+                Que vous soyez intéressé par les phénomènes célestes qui peuplent notre univers ou par les interactions microscopiques au cœur de la matière, notre site web est conçu pour vous accompagner dans votre voyage de découverte.
+
+                Nous avons rassemblé une équipe de passionnés et d'experts en physique qui se sont engagés à partager leur savoir et leur enthousiasme avec vous. Vous trouverez ici une combinaison unique d'articles approfondis, d'expériences interactives, de vidéos pédagogiques et d'illustrations visuelles pour vous aider à visualiser et à comprendre les concepts complexes de la physique.
+
+                Que vous souhaitiez comprendre les principes fondamentaux de la physique, explorer les dernières avancées scientifiques ou plonger dans des sujets spécialisés, notre site web vous offre une ressource complète et fiable. Nous mettons à votre disposition des ressources adaptées à tous les niveaux, des débutants aux experts, pour vous accompagner dans votre apprentissage et votre épanouissement personnel.
+
+                Préparez-vous à élargir vos horizons, à découvrir les merveilles du monde de la physique et à nourrir votre curiosité. Parcourez notre site, plongez dans les articles, explorez les concepts et rejoignez la communauté d'apprentissage qui se forme autour de notre passion commune pour la physique.
+
+                Bienvenue dans notre univers de connaissances physiques. Nous sommes ravis de vous accueillir et d'être votre guide dans cette aventure extraordinaire.
+            </span></p>
+        <br/><br />
+        <button type="button" onclick="MyFunction();" style="background-color:white;border:none; " ><a class="button" id="btn">En savoir plus</a></button><br>
+         
+
+        <script type="text/javascript">
+            function MyFunction() {
+                var span = document.getElementById("span_txt2");
+                var btn = document.getElementById("btn");
+                if (span.style.display == "none") {
+                    span.style.display = "inline";
+                    btn.innerHTML = "Masquer";
+                } else {
+                    span.style.display = "none";
+                    btn.innerHTML = "En savoir plus";
+                }
+            }
+        </script> <br>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 INFOrmationWeb.ILYAS.Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
